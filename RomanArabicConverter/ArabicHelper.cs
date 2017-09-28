@@ -44,7 +44,7 @@ namespace RomanArabicConverter
                 input %= 10;
 
                 //input should be left in the singles/ones
-                res += oArabic[temp];
+                res += oArabic[input];
             }
             catch
             {
