@@ -1,1 +1,9 @@
 c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\bin\Debug\RomanArabicConverter.exe.config
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\bin\Debug\RomanArabicConverter.exe
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\bin\Debug\RomanArabicConverter.pdb
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\obj\Debug\RomanArabicConverter.csprojResolveAssemblyReference.cache
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\obj\Debug\RomanArabicConverter.Form1.resources
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\obj\Debug\RomanArabicConverter.Properties.Resources.resources
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\obj\Debug\RomanArabicConverter.csproj.GenerateResource.Cache
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\obj\Debug\RomanArabicConverter.exe
+c:\users\oosman\documents\visual studio 2015\Projects\RomanArabicConverter\RomanArabicConverter\obj\Debug\RomanArabicConverter.pdb
