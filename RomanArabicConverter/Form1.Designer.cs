@@ -28,71 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbRomanIn = new System.Windows.Forms.TextBox();
-            this.tbArabicIn = new System.Windows.Forms.TextBox();
-            this.bRoman = new System.Windows.Forms.Button();
-            this.rArabic = new System.Windows.Forms.Button();
-            this.tbRomanOut = new System.Windows.Forms.TextBox();
-            this.tbArabicOut = new System.Windows.Forms.TextBox();
+            this.tbRoman = new System.Windows.Forms.TextBox();
+            this.tbArabic = new System.Windows.Forms.TextBox();
+            this.lRoman = new System.Windows.Forms.Label();
+            this.lArabic = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // tbRomanIn
+            // tbRoman
             // 
-            this.tbRomanIn.Location = new System.Drawing.Point(12, 12);
-            this.tbRomanIn.Name = "tbRomanIn";
-            this.tbRomanIn.Size = new System.Drawing.Size(100, 20);
-            this.tbRomanIn.TabIndex = 0;
+            this.tbRoman.Location = new System.Drawing.Point(12, 33);
+            this.tbRoman.Name = "tbRoman";
+            this.tbRoman.Size = new System.Drawing.Size(100, 20);
+            this.tbRoman.TabIndex = 0;
+            this.tbRoman.TextChanged += new System.EventHandler(this.tbRoman_TextChanged);
             // 
-            // tbArabicIn
+            // tbArabic
             // 
-            this.tbArabicIn.Location = new System.Drawing.Point(172, 12);
-            this.tbArabicIn.Name = "tbArabicIn";
-            this.tbArabicIn.Size = new System.Drawing.Size(100, 20);
-            this.tbArabicIn.TabIndex = 1;
+            this.tbArabic.Location = new System.Drawing.Point(172, 33);
+            this.tbArabic.Name = "tbArabic";
+            this.tbArabic.Size = new System.Drawing.Size(100, 20);
+            this.tbArabic.TabIndex = 5;
+            this.tbArabic.TextChanged += new System.EventHandler(this.tbArabic_TextChanged);
             // 
-            // bRoman
+            // lRoman
             // 
-            this.bRoman.Location = new System.Drawing.Point(25, 38);
-            this.bRoman.Name = "bRoman";
-            this.bRoman.Size = new System.Drawing.Size(75, 23);
-            this.bRoman.TabIndex = 2;
-            this.bRoman.Text = "Convert Roman";
-            this.bRoman.UseVisualStyleBackColor = true;
+            this.lRoman.AutoSize = true;
+            this.lRoman.Location = new System.Drawing.Point(40, 17);
+            this.lRoman.Name = "lRoman";
+            this.lRoman.Size = new System.Drawing.Size(41, 13);
+            this.lRoman.TabIndex = 7;
+            this.lRoman.Text = "Roman";
             // 
-            // rArabic
+            // lArabic
             // 
-            this.rArabic.Location = new System.Drawing.Point(186, 38);
-            this.rArabic.Name = "rArabic";
-            this.rArabic.Size = new System.Drawing.Size(75, 23);
-            this.rArabic.TabIndex = 3;
-            this.rArabic.Text = "Convert";
-            this.rArabic.UseVisualStyleBackColor = true;
-            // 
-            // tbRomanOut
-            // 
-            this.tbRomanOut.Location = new System.Drawing.Point(12, 67);
-            this.tbRomanOut.Name = "tbRomanOut";
-            this.tbRomanOut.Size = new System.Drawing.Size(100, 20);
-            this.tbRomanOut.TabIndex = 4;
-            // 
-            // tbArabicOut
-            // 
-            this.tbArabicOut.Location = new System.Drawing.Point(172, 67);
-            this.tbArabicOut.Name = "tbArabicOut";
-            this.tbArabicOut.Size = new System.Drawing.Size(100, 20);
-            this.tbArabicOut.TabIndex = 5;
+            this.lArabic.AutoSize = true;
+            this.lArabic.Location = new System.Drawing.Point(207, 17);
+            this.lArabic.Name = "lArabic";
+            this.lArabic.Size = new System.Drawing.Size(37, 13);
+            this.lArabic.TabIndex = 8;
+            this.lArabic.Text = "Arabic";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 101);
-            this.Controls.Add(this.tbArabicOut);
-            this.Controls.Add(this.tbRomanOut);
-            this.Controls.Add(this.rArabic);
-            this.Controls.Add(this.bRoman);
-            this.Controls.Add(this.tbArabicIn);
-            this.Controls.Add(this.tbRomanIn);
+            this.Controls.Add(this.lArabic);
+            this.Controls.Add(this.lRoman);
+            this.Controls.Add(this.tbArabic);
+            this.Controls.Add(this.tbRoman);
             this.Name = "Form1";
             this.Text = "RomanArabicConverter";
             this.ResumeLayout(false);
@@ -102,12 +86,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox tbRomanIn;
-        private System.Windows.Forms.TextBox tbArabicIn;
-        private System.Windows.Forms.Button bRoman;
-        private System.Windows.Forms.Button rArabic;
-        private System.Windows.Forms.TextBox tbRomanOut;
-        private System.Windows.Forms.TextBox tbArabicOut;
+        private System.Windows.Forms.TextBox tbRoman;
+        private System.Windows.Forms.TextBox tbArabic;
+        private System.Windows.Forms.Label lRoman;
+        private System.Windows.Forms.Label lArabic;
     }
 }
 
